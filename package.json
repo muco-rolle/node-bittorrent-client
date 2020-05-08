@@ -1,0 +1,21 @@
+{
+    "name": "node-bittorrent",
+    "version": "1.0.0",
+    "description": "A fast bittorrent client created in nodejs",
+    "main": "main.ts",
+    "author": "Muco Tresor",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon"
+    },
+    "dependencies": {
+        "bencode": "^2.0.1"
+    },
+    "devDependencies": {
+        "@types/bencode": "^2.0.0",
+        "@types/node": "^13.13.5",
+        "nodemon": "^2.0.3",
+        "ts-node": "^8.10.1",
+        "typescript": "^3.8.3"
+    }
+}
